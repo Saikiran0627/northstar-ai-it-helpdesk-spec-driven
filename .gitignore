@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments and credentials
+.env
+.venv/
+venv/
+
+# Local runtime data
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+*.log
+
+# Streamlit
+.streamlit/secrets.toml
